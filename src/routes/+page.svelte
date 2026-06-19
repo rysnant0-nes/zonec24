@@ -13,6 +13,7 @@
 		{ href: '/cp', icon: 'fa-book-open', label: 'Cari CP', desc: 'Capaian Pembelajaran kurikulum' },
 		{ href: '/buku-sd', icon: 'fa-book', label: 'Buku SD', desc: 'Katalog buku SD dari SIBI' },
 		{ href: '/karya', icon: 'fa-images', label: 'Galeri Foto', desc: 'Dokumentasi PGSD C 2024' },
+		{ href: '/pddikti', icon: 'fa-graduation-cap', label: 'PDDikti', desc: 'Cari mahasiswa UNIROW' },
 		{ href: '/mahasiswa', icon: 'fa-users', label: 'Daftar MHS', desc: 'Data mahasiswa PGSD C 2024' },
 		{ href: '/spin', icon: 'fa-shuffle', label: 'Acak MHS', desc: 'Acak nama mahasiswa' }
 	];
