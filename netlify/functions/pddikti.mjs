@@ -1,7 +1,7 @@
 const API_BASE = 'https://pddikti.fastapicloud.dev/api';
 
 export const handler = async (event) => {
-	const path = event.path.replace('/.netlify/functions/pddikti/', '');
+	const path = event.path.replace(/^\/api\/pddikti\//, '').replace(/^\/\.netlify\/functions\/pddikti\//, '');
 	const query = event.rawQuery;
 	const url = `${API_BASE}/${path}${query ? '?' + query : ''}`;
 
