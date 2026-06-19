@@ -26,7 +26,7 @@
 			const res = await fetch(`${API}/search/mhs/${encodeURIComponent(q)}/`);
 			if (!res.ok) throw new Error('Gagal memuat data');
 			const json = await res.json();
-			const data = json.value || [];
+			const data = Array.isArray(json) ? json : (json.value || []);
 			results = data.filter(isUnirow);
 		} catch (e) {
 			errorMsg = e.message || 'Terjadi kesalahan';
