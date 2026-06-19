@@ -7,7 +7,7 @@
 	let detail = $state(null);
 	let detailLoading = $state(false);
 
-	const API = 'https://pddikti.fastapicloud.dev/api';
+	const API = '/api/pddikti';
 
 	function isUnirow(item) {
 		const pt = (item.nama_pt || '').toUpperCase();
@@ -70,7 +70,7 @@
 					<input
 						bind:value={search}
 						onkeydown={(e) => { if (e.key === 'Enter') cari(); }}
-						placeholder="Cari nama mahasiswa..."
+									placeholder="Cari nama atau NIM mahasiswa..."
 						class="form-control border-0 rounded-pill ps-5 py-2"
 						style="background:rgba(99,102,241,0.04); font-size:14px; color:#1e293b;"
 					/>
