@@ -6,6 +6,7 @@
 		{ href: '/cp', icon: 'fa-book-open', label: 'CP' },
 		{ href: '/buku-sd', icon: 'fa-book', label: 'Buku' },
 		{ href: '/karya', icon: 'fa-images', label: 'Galeri' },
+		{ href: '/pddikti', icon: 'fa-graduation-cap', label: 'PDDikti' },
 		{ href: '/mahasiswa', icon: 'fa-users', label: 'MHS' },
 		{ href: '/spin', icon: 'fa-shuffle', label: 'Acak' },
 	];

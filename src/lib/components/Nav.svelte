@@ -67,7 +67,14 @@
 					<i class="fas fa-images" style="width:24px; text-align:center; color:#6366f1; font-size:16px;"></i> Galeri Foto
 				</a>
 			</li>
-	
+			<li class="nav-item">
+				<a href="/pddikti" class="nav-link d-flex align-items-center gap-3 px-4 py-3 rounded-xl fw-medium transition-all" style="color:#64748b; font-size:14px; transition:all 0.2s ease;"
+					onmouseenter={(e) => { e.currentTarget.style.background = 'rgba(99,102,241,0.06)'; e.currentTarget.style.color = '#6366f1'; }}
+					onmouseleave={(e) => { e.currentTarget.style.background = ''; e.currentTarget.style.color = ''; }}
+				>
+					<i class="fas fa-graduation-cap" style="width:24px; text-align:center; color:#6366f1; font-size:16px;"></i> PDDikti
+				</a>
+			</li>
 			<li class="nav-item">
 				<a href="/mahasiswa" class="nav-link d-flex align-items-center gap-3 px-4 py-3 rounded-xl fw-medium transition-all" style="color:#64748b; font-size:14px; transition:all 0.2s ease;"
 					onmouseenter={(e) => { e.currentTarget.style.background = 'rgba(99,102,241,0.06)'; e.currentTarget.style.color = '#6366f1'; }}
